@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "common_spawn_protection",
+  "version": "${version}",
+  "name": "Common Spawn Protection",
+  "description": "Overworld and End Spawn protection for Common Protection API",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/DaFuqs/CommonSpawnProtection"
+  },
+  "license": "MIT",
+  "icon": "assets/CommonSpawnProtection/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.dafuqs.commonspawnprotection.CommonSpawnProtection"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "common-protection-api": "*"
+  }
+}

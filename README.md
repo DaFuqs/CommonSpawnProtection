@@ -1,0 +1,1 @@
+Addon for https://github.com/Patbox/common-protection-api providing protection for all dimensions spawn area and the End Exit Portal
