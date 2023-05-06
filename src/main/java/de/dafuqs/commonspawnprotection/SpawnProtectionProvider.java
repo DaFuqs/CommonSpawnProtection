@@ -7,7 +7,9 @@ public class SpawnProtectionProvider extends PermissionBypassedProtectionProvide
 	
 	@Override
 	public boolean isProtected(World world, BlockPos pos) {
-		return pos.isWithinDistance(world.getSpawnPos(), world.getGameRules().getInt(GameRules.SPAWN_RADIUS));
+		int spawnRadius = world.getGameRules().getInt(GameRules.SPAWN_RADIUS);
+		BlockPos spawnPos = world.getSpawnPos();
+		return Math.abs(pos.getX() - spawnPos.getX()) < spawnRadius && Math.abs(pos.getZ() - spawnPos.getZ()) < spawnRadius;
 	}
 	
 }
