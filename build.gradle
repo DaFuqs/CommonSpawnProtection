@@ -19,7 +19,7 @@ dependencies {
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    modImplementation "eu.pb4:common-protection-api:${project.cpa_version}"
+    modImplementation include ("eu.pb4:common-protection-api:${project.cpa_version}")
 }
 
 processResources {
