@@ -3,7 +3,7 @@
   "id": "common_spawn_protection",
   "version": "${version}",
   "name": "Common Spawn Protection",
-  "description": "Overworld and End Spawn protection for Common Protection API",
+  "description": "Spawn Protection and End Portal Protection for mods supporting Common Protection API",
   "authors": [],
   "contact": {
     "repo": "https://github.com/DaFuqs/CommonSpawnProtection"
@@ -18,7 +18,6 @@
   },
   "depends": {
     "fabricloader": ">=${loader_version}",
-    "fabric": "*",
     "minecraft": "${minecraft_version}",
     "common-protection-api": "*"
   }
