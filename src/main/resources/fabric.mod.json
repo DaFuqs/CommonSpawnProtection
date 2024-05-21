@@ -4,7 +4,9 @@
   "version": "${version}",
   "name": "Common Spawn Protection",
   "description": "Spawn Protection and End Portal Protection for mods supporting Common Protection API",
-  "authors": [],
+  "authors": [
+    "DaFuqs"
+  ],
   "contact": {
     "repo": "https://github.com/DaFuqs/CommonSpawnProtection"
   },
