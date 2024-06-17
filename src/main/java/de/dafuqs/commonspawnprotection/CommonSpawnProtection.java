@@ -8,7 +8,7 @@ public class CommonSpawnProtection implements ModInitializer {
 	
 	public static final String MOD_ID = "common_spawn_protection";
 	public static Identifier locate(String name) {
-		return new Identifier(MOD_ID, name);
+		return Identifier.of(MOD_ID, name);
 	}
 	
 	@Override
